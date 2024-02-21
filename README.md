@@ -1,11 +1,11 @@
-Delivery Database
+# Delivery Database
 
-Introduction
+## Introduction
 This project consists of a comprehensive database setup designed to manage and
 track deliveries, including details about suppliers, components, projects, and
 deliveries.
 
-Database Schema
+## Database Schema
 
 The database is structured around four main tables: Furnizori (Suppliers),
 Componente (Components), Proiecte (Projects), and Livrari (Deliveries), with
@@ -13,7 +13,7 @@ relationships defined among them through primary and foreign keys. Additionally,
 constraints and triggers are used to maintain data integrity and automate certain
 operations.
 
-Tables
+## Tables
 
 • Furnizori: Stores supplier information.
 
@@ -25,7 +25,7 @@ Tables
 • Livrari: Records deliveries, including quantities and relationships to
   suppliers, components, and projects.
 
-Alterations and Constraints
+## Alterations and Constraints
 
 • Modifications include dropping and adding columns and adding check
   constraints to ensure data validity.
@@ -33,7 +33,7 @@ Alterations and Constraints
 • Triggers and procedures are implemented for automated data management
 and integrity checks.
 
-Usage Examples
+## Usage Examples
 
 • Adding a Delivery: Navigate to the 'Add Delivery' section, fill in the details,
 and submit.
